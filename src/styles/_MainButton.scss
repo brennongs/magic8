@@ -1,0 +1,21 @@
+.button{
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 75px;
+  height: 75px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid $blue-bright;
+  color: $blue-bright;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: $button;
+  font-size: 20px;
+  &:hover{
+    background-color: $blue-dim;
+    color: white;
+    border: none;
+  }
+}

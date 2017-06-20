@@ -1,0 +1,54 @@
+.magic8{
+  height: 550px;
+  width: 550px;
+  border-radius: 50%;
+  background-color: $black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .front{
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: $black;
+    font-family: $eight;
+    font-size: 250px;
+    position: relative;
+  }
+  .answer{
+    color: white;
+    height: 175px;
+    width: 175px;
+    background-color: $black;
+    border-radius: 50%;
+    border: 20px solid $grey-dark;
+    display: flex;
+    justify-content: center;
+    .triangle{
+      height: 0;
+      width: 0;
+      border-bottom: 120px solid $blue-dim;
+      border-right: 75px solid transparent;
+      border-left: 75px solid transparent;
+      z-index: 0;
+      display: flex;
+      justify-content: center;
+
+
+      span{
+        display: flex;
+        text-align: center;
+        margin-top: 60px;
+        font-size: 10px;
+
+      }
+    }
+
+
+  }
+}
